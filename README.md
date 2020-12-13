@@ -8,8 +8,7 @@ This is a custome bash script for Asuswrt-Merlin router firmware to update Cloud
 - Entware
 - jq (can be installed through `opkg instsall jq`
 
-# Setup
-## Quick Start Guide
+# Quick Start Guide
 ### Preparing the router
 1. Prepare a USB drive with format ext4 and plug it into the router
 2. Enable "JFFS custom scripts and configs" under Administration -> System
