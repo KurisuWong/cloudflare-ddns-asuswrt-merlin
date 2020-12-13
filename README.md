@@ -7,7 +7,6 @@ This is a custome bash script for Asuswrt-Merlin router firmware to update Cloud
 # Prerequisite
 - Entware
 - jq (can be installed through `opkg instsall jq`
-- **You required to create the specific DNS A Record before using this script**
 
 # Setup
 ## Quick Start Guide
