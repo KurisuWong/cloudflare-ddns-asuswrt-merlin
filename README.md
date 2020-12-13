@@ -22,7 +22,7 @@ This is a custome bash script for Asuswrt-Merlin router firmware to update Cloud
 ### Editing the script
 5. Download [ddns-start](ddns-start) script and modify the `Configuration ` session
 
-API Token can be generated User Profile > ['API Token'](https://dash.cloudflare.com/profile/api-tokens) Page with the following privilege
+API Token can be generated in User Profile > ['API Token'](https://dash.cloudflare.com/profile/api-tokens) Page with the following privilege
 - Permissions: Zone > DNS > Edit*
 - Zone Resources: Include > Specific Zone > \<your zone\>*
 
