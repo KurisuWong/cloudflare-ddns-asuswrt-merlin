@@ -6,7 +6,7 @@ This is a custom bash script for Asuswrt-Merlin router firmware to update Cloudf
 
 # Prerequisite
 - Entware
-- jq (can be installed through `opkg instsall jq`
+- jq (can be installed through `opkg instsall jq`)
 
 # Quick Start Guide
 ### Preparing the router
