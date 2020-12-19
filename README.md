@@ -1,5 +1,5 @@
 # Asuswrt-Merlin Custom DDNS for Cloudflare
-This is a custome bash script for Asuswrt-Merlin router firmware to update Cloudflare DNS A record
+This is a custom bash script for Asuswrt-Merlin router firmware to update Cloudflare DNS A record
 
 # Feature
 - Support updating multiple DNS A Record in multiple cloudflare account
