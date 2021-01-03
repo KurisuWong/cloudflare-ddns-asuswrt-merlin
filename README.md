@@ -10,17 +10,18 @@ This is a custom bash script for Asuswrt-Merlin router firmware to update Cloudf
 
 # Quick Start Guide
 ### Preparing the router
-1. Prepare a USB drive with format ext4 and plug it into the router
+1. Plug a USB drive to the router
 2. Enable "JFFS custom scripts and configs" under Administration -> System
 3. SSH to your router
-4. run "amtm" to install Entware
-5. run "opkg install jq"
+4. run "amtm" > "i" > fd" to format the disk to ext4
+5. run "amtm" > "i" > "ep" to install Entware
+6. run "opkg install jq"
 
 ### Preparing the Cloudflare
-4. Add an A record in Cloudflare for the dns record that you are going to use in this script
+7. Add an A record in Cloudflare for the dns record that you are going to use in this script
 
 ### Editing the script
-5. Download [ddns-start](ddns-start) script and modify the `Configuration ` session
+8. Download [ddns-start](ddns-start) script and modify the `Configuration ` session
 
 API Token can be generated in User Profile > ['API Token'](https://dash.cloudflare.com/profile/api-tokens) Page with the following privilege
 - Permissions: Zone > DNS > Edit*
@@ -52,10 +53,10 @@ cloudflare_ddns_update "examplec.com" "ip.examplec.com"
 cloudflare_ddns_update "exampled.com" "ip.exampled.com"
 ```
 ### Uploading the script to router
-6. SSH to your router
-7. Run `vi /jffs/scripts/ddns-start`
-8. Press 'i'
-9. Copy and Paste the content of the edited script
-10. Press `Esc` then key in `:wq`, and `Enter`
-11. Run `chmod +x /jffs/scripts/ddns-start`
-12. Enable the DDNS Client in `WAN` -> `DDNS` and use `Custom` as Server.
+9. SSH to your router
+10. Run `vi /jffs/scripts/ddns-start`
+11. Press 'i'
+12. Copy and Paste the content of the edited script
+13. Press `Esc` then key in `:wq`, and `Enter`
+14. Run `chmod +x /jffs/scripts/ddns-start`
+15. Enable the DDNS Client in `WAN` -> `DDNS` and use `Custom` as Server.
