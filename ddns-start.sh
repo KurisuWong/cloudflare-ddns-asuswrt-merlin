@@ -2,14 +2,15 @@
 
 # Asuswrt-Merlin Custom DDNS bash script for Cloudflare DNS A record
 # To use this script, follow the step:
-# 1. Prepare a USB drive with format ext4 and plug it into the router
+# 1. Plug a USB drive to the router
 # 2. Enable "JFFS custom scripts and configs" under Administration -> System
-# 2. run "amtm" to install Entware
-# 3. run "opkg install jq"
-# 4. edit "Configuration" section of this script
-# 5. copy the contents of this script in /jffs/scripts/ddns-start
-# 6. run "chmod +x /jffs/scripts/ddns-start"
-# 7. enable the DDNS Client in WAN -> DDNS and use Custom as Server.
+# 3. run "amtm" > "i" > fd" to format the disk to ext4
+# 4. run "amtm" > "i" > "ep" to install Entware
+# 5. run "opkg install jq"
+# 6. edit "Configuration" section of this script
+# 7. copy the contents of this script in /jffs/scripts/ddns-start
+# 8. run "chmod +x /jffs/scripts/ddns-start"
+# 9. enable the DDNS Client in WAN -> DDNS and use Custom as Server.
 
 # Get the current IP address from router
 ip=${1}
